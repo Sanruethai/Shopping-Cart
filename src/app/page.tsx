@@ -15,12 +15,12 @@ export default function Home() {
   const [total, setTotal] = React.useState(0);
   const [totalPrice, setTotalPrice] = React.useState(0);
 
-  const handleIncremental = (price = number) => {
+  const handleIncremental = (price: number) => {
     setTotal(prevTotal => prevTotal + 1);
     setTotalPrice(prevTotalPrice => prevTotalPrice + price);
   };
 
-  const handleIncrementaldel = (price = number) => {
+  const handleIncrementaldel = (price: number) => {
     setTotal(prevTotal => Math.max(prevTotal - 1, 0));
     setTotalPrice(prevTotalPrice => Math.max(prevTotalPrice - price, 0));
   };
