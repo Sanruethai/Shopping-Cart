@@ -1,0 +1,21 @@
+.itemContainer {
+    margin: 1rem 0; /* Adds margin around each item container */
+  }
+  
+  .itemImage {
+    width: 100%;
+  }
+  
+  .itemDetails {
+    padding: 0 1rem; /* Adds padding inside the details section */
+  }
+  
+  .itemName {
+    margin-bottom: 0.5rem; /* Adds space below the item name */
+    padding: 0.5rem; /* Adds padding around the item name */
+  }
+  
+  .itemCount, .itemPrice {
+    margin: 0 0.5rem; /* Adds horizontal margin around count and price */
+  }
+  
